@@ -4,25 +4,29 @@
     <title>Hotel Room Booking Form</title>
 </head>
 <body>
+    <table border="4" width="80%" cellspacing="0" cellpadding="5" align="center">
+ <tr>
+    <td>
     <h1>🏨 Hotel Room Booking Form</h1>
     <p>Please fill out the form below to book your stay.</p>
 
+   
     <form>
         <label>Full Name:</label><br>
         <input type="text" name="fullname" placeholder="Enter your full name" required><br><br>
-
+   
         <label>Email:</label><br>
         <input type="email" name="email" placeholder="Enter your email" required><br><br>
 
         <label>Phone Number:</label><br>
         <input type="tel" name="phone" placeholder="Enter your phone number" required><br><br>
-
+    
         <label>Check-in Date:</label><br>
         <input type="date" name="checkin" required><br><br>
-
+    
         <label>Check-out Date:</label><br>
         <input type="date" name="checkout" required><br><br>
-
+    
         <label>Room Type:</label><br>
         <select name="roomtype" required>
             <option value="">-- Select Room Type --</option>
@@ -31,15 +35,19 @@
             <option value="deluxe">Deluxe Room</option>
             <option value="suite">Suite</option>
         </select><br><br>
-
+    
         <label>Number of Guests:</label><br>
         <input type="number" name="guests" min="1" max="10" required><br><br>
-
+   
         <label>Special Requests:</label><br>
         <textarea name="requests" rows="4" cols="40" placeholder="Enter any special requests"></textarea><br><br>
-
+   
         <input type="submit" value="Book Now">
-        <input type="reset" value="Clear Form">
+        <input type="reset" value="clear">
+   
     </form>
+    </td>
+    </tr>
+
 </body>
 </html>
