@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Combinators</title>
+   
+<style>
+    div p{
+        color: #999;
+    }
+
+    .box > p{
+        background-color: lightblue;
+    }
+     
+    div ~ p {
+        background-color: rgb(60, 255, 17);
+    }
+
+    a:hover{
+        color: rgb(255, 4, 4);
+        font-size: 20px;
+    }
+    
+    a:active{
+        color: rgb(229, 232, 25);
+        font-size: 25px;
+    }
+    
+    a:visited{
+        color: rgb(77, 162, 162);
+    }
+    
+    a:link{
+        text-decoration: none; 
+        font-size: 16px;
+    }
+    ul {
+        display: flex;
+        list-style-type: none;
+    }
+    ul li {
+        margin: 20px; border-right: 1px solid #999;
+        padding-right: 20px;
+    }
+    ul li:hover{
+        color: blue;
+    }
+    ul li:nth-child(5){
+        border-right: 0px;
+    }
+    .para{
+        color:blue;
+    }
+    .para::first-letter{
+        color:brown;
+        font-size: large;
+    }.para::after{
+        content:"READ MORE";
+        color: red;
+        font-size:20px;
+    }
+
+</style>
+    </head>
+    <body>
+    <h1>CSS Combinators</h1>
+    <div class="box">
+        <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+             when an unknown printer took a galley of type and scrambled it to make
+              a type specimen book.
+
+        </p>
+    </div>
+    <p>
+   Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took
+  a galley of type and scrambled it to make a type specimen book.
+    </p>
+    <a href="">VISIT THE LINK</a>
+    <ul>
+          <li>HOME</li>
+          <LI>SERVICES</LI>
+          <LI>ABOUT</LI>
+          <li>ADDRESS</li>
+
+    </ul>
+    <p class="para">
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+         Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+          when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+    </body>
+</html>
