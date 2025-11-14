@@ -1,4 +1,11 @@
-p{
-    color:#ff00ff;
-    background-color:yellow;
+body{
+    margin:0px;
+    padding:0px;
+    
+    /* background-image: url('pikachu.png');
+    background-color: aliceblue;
+    background-position: center ;
+    background-repeat: no-repeat; */
+    background-image:url('pikachu.png') ;
+    background-size: cover;
 }
