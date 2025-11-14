@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CSS Box Model</title>
+        <style>
+ 
+.main {
+  display: flex;
+  width: 400px;
+  height: 200px;
+  border: 4px solid #000;
+  margin: 20px auto;
+}
+
+
+.left-box {
+  flex: 1;
+  background-color: #f2f2f2;
+  border-right: 4px solid #00aaff;
+      
+}
+
+
+.right-box {
+  flex: 2;
+  display: flex;
+
+}
+
+.top-box {
+  flex: 3;
+  background-color: #f5b971;
+  border-bottom: 4px solid #00aaff;
+
+
+}
+
+.bottom-box {
+  flex: 4;
+  background-color: #f5b971;
+}
+
+
+        </style>
+    </head>
+    <body>
+  <div class="main">
+    <div class="left-box"></div>
+    <div class="right-box">
+      <div class="top-box"></div>
+      <div class="bottom-box"></div>
+    </div>
+  </div>
+</body>
+</html>
