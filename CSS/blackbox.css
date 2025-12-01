@@ -1,0 +1,52 @@
+#Header{
+    background-color: blue;
+    border:5px solid black;
+    height:100px;
+    width:100%;
+    color:white;
+    text-align:center;
+}
+
+#NavGlobal{
+    background-color: green;
+    border:5px solid black;
+    height:50px;
+    width:100%;
+    color:white;
+    text-align:center;
+}
+
+#PageTitle{
+    background-color: yellow;
+    border:5px solid black;
+    height:400px;
+    width:100%;
+    color:black;
+    text-align:center;
+}
+#Content1{
+    background-color: orange;
+    border:5px solid black;
+    height:200px;
+    width:100%;
+    color:black;
+    text-align:center;
+}
+#Content2{
+    background-color: pink;
+    border:5px solid black;
+    height:200px;
+    width:100%;
+    color:black;
+    text-align:center;
+}
+
+#Footer{
+    background-color: purple;
+    border:5px solid black;
+    height:100px;
+    width:100%;
+    color:white;
+    text-align:center;
+}
+

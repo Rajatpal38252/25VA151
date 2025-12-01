@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Navigation</title>
+
+<style>
+    body{
+        border:2px solid black;
+        padding:10px;
+    }
+    .navbar{
+        background: lightgray;
+        text-align:center;
+        padding:8px;
+    }
+    .row{
+        display:flex;
+        gap:10px;
+        padding:8px;
+        width:fit-content;
+        margin-top:10px;
+    }
+    .row.top{ background: lightblue; }
+    .row.bottom{ background: lightgreen; }
+    a{
+        text-decoration:none;
+        color:black;
+        font-size:14px;
+        padding:4px 8px;
+        border:1px solid black;
+    }
+</style>
+
+</head>
+<body>
+
+<div class="navbar">My Website Navigation</div>
+
+<div class="row top">
+    <a>Home</a>
+    <a>About</a>
+    <a>Services</a>
+    <a>Contact</a>
+</div>
+<div class="row bottom">
+    <a>Dashboard</a>
+    <a>Profile</a>
+    <a>Messages</a>
+    <a>Logout</a>
+</div>
+
+</body>
+</html>
